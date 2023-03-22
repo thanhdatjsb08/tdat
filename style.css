@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    width: 500px;
+    height: 300px;
+}
+
+.img {
+    height: 450px;
+    width: 80%;
+    background-color:aquamarine;
+}
+.text {
+    height:120%;
+    width:70%;
+    background-color: white;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.search {
+    margin-top:40px;
+    width: 200px;
+    height: 20px;
+}
+
+.search_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.name {
+    width: 70px;
+    height:75px;
+    margin-left: 10px;
+}
+.type {
+    width: 70px;
+    height:75px;
+    margin-left: 10px;
+}
+.weight {
+    width: 70px;
+    height:75px;
+    margin-left: 10px;
+}
+.height {
+    width: 70px;
+    height:75px;
+    margin-left: 10px;
+}
+.bio {
+    width: 70px;
+    height:75px;
+    margin-left: 10px;
+}
+body {
+    background-color: beige;
+}
